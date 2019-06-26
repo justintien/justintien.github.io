@@ -6,9 +6,9 @@
     "version": "3.9.0"
   },
   "scripts": {
-    "start": "hexo server -p 4000",
+    "start": "hexo clean && hexo server -p 4000",
     "post": "hexo new",
-    "public": "hexo deploy -g"
+    "public": "hexo clean && hexo deploy -g"
   },
   "dependencies": {
     "hexo": "^3.9.0",
