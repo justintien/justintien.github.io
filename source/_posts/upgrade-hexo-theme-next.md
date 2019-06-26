@@ -43,4 +43,10 @@ hexo clean && hexo g -d && hexo s
 # hexo clean 清除緩存文件 db.json 和已生成的靜態静態文件 public
 # hexo g = hexo generate 生成網站靜態文件到默認設置的 public
 # hexo s = hexo server 啟動本地服務器，用於預覽主題，默認 http://localhost:4000/
+
+rm -rf themes/next.old
+
+# 這樣以後升級 next 主題只需要
+cd themes/next
+git pull
 ```
