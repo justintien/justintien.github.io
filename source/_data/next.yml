@@ -205,3 +205,9 @@ tabs:
     tabs: true
     labels: true
   border_radius: 0
+
+
+# Google Analytics
+google_analytics:
+  tracking_id: UA-59277879-1
+  localhost_ignored: true
