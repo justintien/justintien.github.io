@@ -1,8 +1,9 @@
 ---
-title: lazybone
+title: lazybones
 date: 2018-12-30 12:23:38
 tags:
 - 個人
+- personal
 ---
 
 # 賈胖就是個大懶豬
