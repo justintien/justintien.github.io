@@ -2,33 +2,33 @@
 title: lazybone
 date: 2018-12-30 12:23:38
 tags:
-- 个人
+- 個人
 ---
 
-# 贾胖就是个大懒猪
+# 賈胖就是個大懶豬
 
-没想到工作一忙起来，真的会忙死人，根本不会有时间想到继续写我的 blog....
+沒想到工作一忙起來，真的會忙死人，根本不會有時間想到繼續寫我的 blog....
 
-今天讲讲我最近看到的东西吧…
+今天講講我最近看到的東西吧…
 
-先说明下，本站目前采用的是 [hexo](https://hexo.io/)
+先說明下，本站目前採用的是 [hexo](https://hexo.io/)
 
-hexo 目前用起来其实不太顺手，很多东西都不太直觉…但毕境他是比较早出的工具…
+hexo 目前用起來其實不太順手，很多東西都不太直覺…但畢境他是比較早出的工具…
 
 ## vuepress
 
-新的 static site generator (SSG) 工具诞生于 2018年4月， 与 vue 一致的风格，如果用过 vue 的人应该会感觉很亲切，还可以在这边直接写 vue 的组件，听说尤大大说写这个工具是为了解决他自己写文档头痛的问题，目前处于 1-alpha，等他正式版 release 我可能会考虑换这个
+新的 static site generator (SSG) 工具誕生於 2018年4月， 與 vue 一致的風格，如果用過 vue 的人應該會感覺很親切，還可以在這邊直接寫 vue 的組件，聽說尤大大說寫這個工具是為了解決他自己寫文檔頭痛的問題，目前處於 1-alpha，等他正式版 release 我可能會考慮換這個
 
 ## 其它
 
-其它还有
+其它還有
 
-- Jekyll: 用 Ruby 构建，并集成到 GitHub Pages 中，因此被黑客攻击的风险要低得多。主题可以简单更换，自带 SEO，并且 Jekyll 社区提供了大量的自定义插件。
+- Jekyll: 用 Ruby 構建，並集成到 GitHub Pages 中，因此被黑客攻擊的風險要低得多。主題可以簡單更換，自帶 SEO，並且 Jekyll 社區提供了大量的自定義插件。
 - Gatsby
 - hugo
 
-> 参考: https://juejin.im/post/5b47079bf265da0faa3655be
+> 參考: https://juejin.im/post/5b47079bf265da0faa3655be
 
-## 结语
+## 結語
 
-还是希望能找到一款顺手的工具，随手就能写，目前最顺手的应该还是 [docsify](https://docsify.js.org)，贾胖的技术 blog 就是用 docsify 完成的可以看看效果页 [https://blog.jiapan.tw](https://blog.jiapan.tw)
+還是希望能找到一款順手的工具，隨手就能寫，目前最順手的應該還是 [docsify](https://docsify.js.org)，賈胖的技術 blog 就是用 docsify 完成的可以看看效果頁 [https://blog.jiapan.tw](https://blog.jiapan.tw)
