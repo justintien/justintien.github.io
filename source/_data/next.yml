@@ -193,15 +193,15 @@ mobile_layout_economy: true
 # ======================== Tag Plugins ======================== #
 # ============================================================= #
 
-# note:
-#   style: simple
-#   icons: true
-#   border_radius: 0
-#   light_bg_offset: -3
+note:
+  style: simple
+  icons: true
+  border_radius: 0
+  light_bg_offset: -3
 
-# tabs:
-#   enable: true
-#   transition:
-#     tabs: true
-#     labels: true
-#   border_radius: 0
+tabs:
+  enable: true
+  transition:
+    tabs: true
+    labels: true
+  border_radius: 0
