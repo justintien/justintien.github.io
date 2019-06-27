@@ -8,7 +8,7 @@
   "scripts": {
     "start": "hexo clean && hexo server -p 4000",
     "post": "hexo new",
-    "public": "hexo clean && hexo deploy -g"
+    "public": "git add . && git commit -m 'update' && hexo clean && hexo deploy -g"
   },
   "dependencies": {
     "hexo": "^3.9.0",
