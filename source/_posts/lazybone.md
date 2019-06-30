@@ -1,9 +1,10 @@
 ---
 title: lazybones
 date: 2018-12-30 12:23:38
+categories:
+ - 個人
 tags:
-- 個人
-- personal
+ - 日記
 ---
 
 # 賈胖就是個大懶豬

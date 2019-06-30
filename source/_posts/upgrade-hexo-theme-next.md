@@ -1,9 +1,10 @@
 ---
 title: upgrade-hexo-theme-next
 date: 2019-06-26 21:38:09
+categories:
+ - 個人
 tags:
-- 個人
-- personal
+ - 日記
 ---
 
 # 心血來潮升級一下 next 主題

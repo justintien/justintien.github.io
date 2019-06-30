@@ -1,9 +1,10 @@
 ---
 title: first! first!
 date: 2018-05-17 08:49:34
-tags:
+categories:
  - 個人
- - personal
+tags:
+ - 日記
 ---
 
 萬眾矚目開始寫賈胖的 Blog, 其實曾在 2015 年 就用了 hexo 架起我的 [justintien.github.io](https://justintien.github.io)，但後面沒有繼續在寫了…
