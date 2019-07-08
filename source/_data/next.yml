@@ -137,11 +137,11 @@ mobile_layout_economy: true
 # ------------------- Comments and Widgets -------------------- #
 # ============================================================= #
 
-# disqus:
-#   enable: true
-#   shortname: jiapan
-#   count: true
-#   lazyload: true
+disqus:
+  enable: true
+  shortname: justintien
+  count: true
+  lazyload: true
 
 
 # ============================================================= #
