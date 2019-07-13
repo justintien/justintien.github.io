@@ -211,3 +211,12 @@ tabs:
 google_analytics:
   tracking_id: UA-59277879-1
   localhost_ignored: true
+
+
+favicon:
+  small: https://blog.jiapan.tw/assets/favicon/favicon-16x16.png
+  medium: https://blog.jiapan.tw/assets/favicon/favicon-32x32.png
+  apple_touch_icon: https://blog.jiapan.tw/assets/favicon/apple-icon-57x57.png
+  # safari_pinned_tab: /images/logo.svg
+  android_manifest: https://blog.jiapan.tw/assets/favicon/manifest.json
+  ms_browserconfig: https://blog.jiapan.tw/assets/favicon/browserconfig.xml
