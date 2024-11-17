@@ -1,0 +1,222 @@
+# ============================================================= #
+# ============= Theme Core Configuration Settings ============= #
+# ============================================================= #
+
+custom_file_path:
+  styles: source/_data/styles.styl
+
+menu:
+  home: / || home
+  about: /about/ || user
+  tags: /tags/ || tags
+  categories: /categories/ || th
+  archives: /archives/ || archive
+  #schedule: /schedule/ || calendar
+  #sitemap: /sitemap.xml || sitemap
+  #commonweal: /404/ || heartbeat
+
+scheme: Gemini
+
+# ============================================================= #
+# ===================== Sidebar Settings ====================== #
+# ============================================================= #
+social:
+  GitHub: https://github.com/justintien || github
+  E-Mail: mailto:thitbbeb+justintien.jiapan.tw@gmail.com || envelope
+  #Weibo: https://weibo.com/yourname || weibo
+  #Google: https://plus.google.com/yourname || google
+  #Twitter: https://twitter.com/yourname || twitter
+  #FB Page: https://www.facebook.com/yourname || facebook
+  #VK Group: https://vk.com/yourname || vk
+  #StackOverflow: https://stackoverflow.com/yourname || stack-overflow
+  #YouTube: https://youtube.com/yourname || youtube
+  #Instagram: https://instagram.com/yourname || instagram
+  #Skype: skype:yourname?call|chat || skype
+  Telegram [Chat]: https://t.me/joinchat/IYNXoxaIXHpMcEe-R8AC5g || telegram
+  Telegram [News]: https://t.me/joinchat/AAAAAFg7qgTluqXNbotdxw || paper-plane
+
+social_icons:
+  enable: true
+  icons_only: true
+  transition: true
+  
+links:
+  #Title: http://example.com
+
+# Sidebar Avatar
+avatar:
+  # In theme directory (source/images): /images/avatar.gif
+  # In site directory (source/uploads): /uploads/avatar.gif
+  # You can also use other linking images.
+  url: https://blog.jiapan.tw/assets/logo.png #/images/avatar.gif
+  # If true, the avatar would be dispalyed in circle.
+  rounded: false
+  # The value of opacity should be choose from 0 to 1 to set the opacity of the avatar.
+  opacity: 1
+  # If true, the avatar would be rotated with the cursor.
+  rotated: false
+
+toc:
+  enable: true
+  number: true
+  wrap: true
+
+sidebar:
+  onmobile: true
+
+back2top:
+  enable: true
+  sidebar: true
+  scrollpercent: true
+
+# ============================================================= #
+# ======================= SEO Settings ======================== #
+# ============================================================= #
+seo: true
+index_with_subtitle: true
+exturl: true
+
+# ============================================================= #
+# ================= Site Information Settings ================= #
+# ============================================================= #
+
+footer:
+  since: 2018
+  icon:
+    name: heart
+    animated: true
+    color: "#808080"
+  copyright: Justin Tien
+  # -------------------------------------------------------------
+  powered:
+    enable: true
+    version: true
+  theme:
+    enable: true
+    version: true
+  custom_text: Theme source code <span class="exturl theme-link" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0">here</span><br>Website source code <span class="exturl theme-link" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvdGhlbWUtbmV4dC5vcmc=">here</span>
+
+creative_commons:
+  license: by-nc-sa
+  sidebar: true
+  post: false
+
+github_banner:
+  enable: true
+  permalink: https://github.com/justintien/justintien.github.io
+  title: Fork on GitHub
+
+
+# ============================================================= #
+# ======================= Post Settings ======================= #
+# ============================================================= #
+
+symbols_count_time:
+  separated_meta: true
+  item_text_post: true
+  item_text_total: true
+  awl: 4
+  wpm: 275
+
+post_edit:
+  enable: true
+  url: https://github.com/justintien/justintien.github.io/edit/hexo/source/
+
+# ============================================================= #
+# ==================== Misc Theme Settings ==================== #
+# ============================================================= #
+
+mobile_layout_economy: true
+
+# ============================================================= #
+# =============== Third Party Services Settings =============== #
+# ============================================================= #
+
+
+# ============================================================= #
+# ------------------- Comments and Widgets -------------------- #
+# ============================================================= #
+
+disqus:
+  enable: true
+  shortname: justintien
+  count: true
+  lazyload: true
+
+
+# ============================================================= #
+# ----------------- Statistics and Analytics ------------------ #
+# ============================================================= #
+
+# yandex_site_verification: 3ac9ae36ddebb425
+
+# ============================================================= #
+# ---------------------- Search Services ---------------------- #
+# ============================================================= #
+
+# local_search:
+#   enable: true
+#   trigger: auto
+#   top_n_per_article: 1
+
+# ============================================================= #
+# -------------------- External Libraries --------------------- #
+# ============================================================= #
+
+# motion:
+#   enable: false
+#   async: true
+#   transition:
+#     post_block: fadeIn
+#     post_header: slideDownIn
+#     post_body: slideDownIn
+#     coll_header: slideLeftIn
+#     # Only for Pisces | Gemini.
+#     sidebar: slideUpIn
+
+# lazyload: true
+
+# fancybox: true
+
+# ============================================================= #
+# ---------------------- Math Equations ----------------------- #
+# ============================================================= #
+
+# math:
+#   enable: true
+#   per_page: true
+#   engine: mathjax
+#   mathjax:
+#     cdn: //cdn.jsdelivr.net/npm/mathjax@2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+
+# ============================================================= #
+# ======================== Tag Plugins ======================== #
+# ============================================================= #
+
+note:
+  style: simple
+  icons: true
+  border_radius: 0
+  light_bg_offset: -3
+
+tabs:
+  enable: true
+  transition:
+    tabs: true
+    labels: true
+  border_radius: 0
+
+
+# Google Analytics
+google_analytics:
+  tracking_id: UA-59277879-1
+  localhost_ignored: true
+
+
+favicon:
+  small: https://blog.jiapan.tw/assets/favicon/favicon-16x16.png
+  medium: https://blog.jiapan.tw/assets/favicon/favicon-32x32.png
+  apple_touch_icon: https://blog.jiapan.tw/assets/favicon/apple-icon-57x57.png
+  # safari_pinned_tab: /images/logo.svg
+  android_manifest: https://blog.jiapan.tw/assets/favicon/manifest.json
+  ms_browserconfig: https://blog.jiapan.tw/assets/favicon/browserconfig.xml
