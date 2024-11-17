@@ -1,4 +1,4 @@
-.github/workflows/pages.yml
+# .github/workflows/pages.yml
 name: Pages
 
 on:
@@ -14,7 +14,7 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           # If your repository depends on submodule, please see: https://github.com/actions/checkout
-          submodules: ''
+          submodules: ""
       - name: Use Node.js 16
         uses: actions/setup-node@v4
         with:
