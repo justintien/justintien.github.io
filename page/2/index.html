@@ -1,0 +1,1205 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 7.3.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="https://blog.jiapan.tw/assets/favicon/apple-icon-57x57.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://blog.jiapan.tw/assets/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://blog.jiapan.tw/assets/favicon/favicon-16x16.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+  <link rel="manifest" href="https://blog.jiapan.tw/assets/favicon/manifest.json">
+  <meta name="msapplication-config" content="https://blog.jiapan.tw/assets/favicon/browserconfig.xml">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"justintien.jiapan.tw","root":"/","scheme":"Gemini","version":"7.8.0","exturl":true,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":true},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":true,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
+  </script>
+
+  <meta name="description" content="這裡是比較屬於賈胖個人事物的 blog，另外比較偏賈胖技術 blog 寫在 https:&#x2F;&#x2F;blog.jiapan.tw">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Justin (Jiapan 賈胖)">
+<meta property="og:url" content="https://justintien.jiapan.tw/page/2/index.html">
+<meta property="og:site_name" content="Justin (Jiapan 賈胖)">
+<meta property="og:description" content="這裡是比較屬於賈胖個人事物的 blog，另外比較偏賈胖技術 blog 寫在 https:&#x2F;&#x2F;blog.jiapan.tw">
+<meta property="og:locale">
+<meta property="article:author" content="Justin Tien">
+<meta property="article:tag" content="full-stack developer, devOps, backend, frontend, b2e, f2e">
+<meta name="twitter:card" content="summary">
+
+<link rel="canonical" href="https://justintien.jiapan.tw/page/2/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : true,
+    isPost : false,
+    lang   : 'zh'
+  };
+</script>
+
+  <title>Justin (Jiapan 賈胖) - 我是賈胖，賈胖是我</title>
+  
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-59277879-1"></script>
+    <script>
+      if (CONFIG.hostname === location.hostname) {
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-59277879-1');
+      }
+    </script>
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="Toggle navigation bar">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">Justin (Jiapan 賈胖)</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+      <p class="site-subtitle" itemprop="description">我是賈胖，賈胖是我</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="home fa-fw"></i>Home</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="archive fa-fw"></i>Archives</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="user fa-fw"></i>About</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="tags fa-fw"></i>Tags</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="th fa-fw"></i>Categories</a>
+
+  </li>
+  </ul>
+</nav>
+
+
+
+
+</div>
+    </header>
+
+    
+
+  <span class="exturl github-corner" data-url="aHR0cHM6Ly9naXRodWIuY29tL2p1c3RpbnRpZW4vanVzdGludGllbi5naXRodWIuaW8=" title="Fork on GitHub" aria-label="Fork on GitHub"><svg width="80" height="80" viewBox="0 0 250 250" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></span>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content index posts-expand">
+            
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh">
+    <link itemprop="mainEntityOfPage" href="https://justintien.jiapan.tw/2019/07/13/%E7%A8%8B%E5%BA%8F%E5%93%A1%E7%9B%B8%E9%97%9C%E7%9A%84%E9%9B%BB%E5%BD%B1/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="https://blog.jiapan.tw/assets/logo.png">
+      <meta itemprop="name" content="Justin Tien">
+      <meta itemprop="description" content="這裡是比較屬於賈胖個人事物的 blog，另外比較偏賈胖技術 blog 寫在 https://blog.jiapan.tw">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Justin (Jiapan 賈胖)">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2019/07/13/%E7%A8%8B%E5%BA%8F%E5%93%A1%E7%9B%B8%E9%97%9C%E7%9A%84%E9%9B%BB%E5%BD%B1/" class="post-title-link" itemprop="url">程序員相關的電影</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+
+              <time title="Created: 2019-07-13 12:26:14" itemprop="dateCreated datePublished" datetime="2019-07-13T12:26:14+08:00">2019-07-13</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">Edited on</span>
+                <time title="Modified: 2024-11-18 00:32:34" itemprop="dateModified" datetime="2024-11-18T00:32:34+08:00">2024-11-18</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E5%80%8B%E4%BA%BA/" itemprop="url" rel="index"><span itemprop="name">個人</span></a>
+                </span>
+            </span>
+
+          
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Disqus: </span>
+    
+    <a title="disqus" href="/2019/07/13/%E7%A8%8B%E5%BA%8F%E5%93%A1%E7%9B%B8%E9%97%9C%E7%9A%84%E9%9B%BB%E5%BD%B1/#disqus_thread" itemprop="discussionUrl">
+      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2019/07/13/程序員相關的電影/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h1 id="程序員相關的電影"><a href="#程序員相關的電影" class="headerlink" title="程序員相關的電影"></a>程序員相關的電影</h1><blockquote>
+<p>最近刷抖音刷到的，然後另外又查了一些，在這邊做個分享</p>
+</blockquote>
+<ul>
+<li>標題格式: 中國片名 &#x2F; 台灣片名</li>
+</ul>
+<h2 id="黑客帝國-駭客帝國"><a href="#黑客帝國-駭客帝國" class="headerlink" title="黑客帝國 &#x2F; 駭客帝國"></a>黑客帝國 &#x2F; 駭客帝國</h2><blockquote>
+<p>1999年</p>
+</blockquote>
+<ul>
+<li>概念: 在線&#x2F;離線、遞迴、循環、矩陣…</li>
+<li>這部具有革命性的電影，一種文明的結束是另一種文明的開始，它成了後來的很多電影效仿的對象。</li>
+</ul>
+<h2 id="環形使者-迴路殺手"><a href="#環形使者-迴路殺手" class="headerlink" title="環形使者 &#x2F; 迴路殺手"></a>環形使者 &#x2F; 迴路殺手</h2><blockquote>
+<p>2012年</p>
+</blockquote>
+<ul>
+<li>概念: 循環</li>
+<li>如果生活變成了一種無休無止的循環，該如何終止它？</li>
+</ul>
+<h2 id="創-戰紀-創：光速戰記"><a href="#創-戰紀-創：光速戰記" class="headerlink" title="創: 戰紀 &#x2F; 創：光速戰記"></a>創: 戰紀 &#x2F; 創：光速戰記</h2><blockquote>
+<p>2010年</p>
+</blockquote>
+<ul>
+<li>概念: 虛擬與現實</li>
+<li>很多到了年紀的計算機科學家都會承認，他們對計算機計算或戰爭遊戲的熱愛來自一種憧憬。</li>
+</ul>
+<h2 id="遇見未來-天眼救未來"><a href="#遇見未來-天眼救未來" class="headerlink" title="遇見未來 &#x2F; 天眼救未來"></a>遇見未來 &#x2F; 天眼救未來</h2><blockquote>
+<p>2007年</p>
+</blockquote>
+<ul>
+<li>概念: 遞迴</li>
+</ul>
+<h2 id="死神來了-絕命終結站-有五集"><a href="#死神來了-絕命終結站-有五集" class="headerlink" title="死神來了 &#x2F; 絕命終結站 (有五集)"></a>死神來了 &#x2F; 絕命終結站 (有五集)</h2><blockquote>
+<p>2000年 ~ 2011年</p>
+</blockquote>
+<ul>
+<li>概念: if&#x2F;else jump</li>
+</ul>
+<h2 id="盜夢空間-全面啟動"><a href="#盜夢空間-全面啟動" class="headerlink" title="盜夢空間 &#x2F; 全面啟動"></a>盜夢空間 &#x2F; 全面啟動</h2><blockquote>
+<p>2010年</p>
+</blockquote>
+<ul>
+<li>概念: 虛擬機、嵌套</li>
+</ul>
+<h2 id="雲圖"><a href="#雲圖" class="headerlink" title="雲圖"></a>雲圖</h2><blockquote>
+<p>2012年</p>
+</blockquote>
+<ul>
+<li>概念: 並行</li>
+<li>看似無關的幾個線索其實是有內部聯繫的，就像是並行計算其實都是為了解決同一個任務，甚至還會共享一些變量。</li>
+</ul>
+<h2 id="Flatland-2-Sphereland"><a href="#Flatland-2-Sphereland" class="headerlink" title="Flatland 2: Sphereland"></a>Flatland 2: Sphereland</h2><blockquote>
+<p>2012年</p>
+</blockquote>
+<ul>
+<li>概念: 2D</li>
+</ul>
+<h2 id="源代碼-啟動原始碼"><a href="#源代碼-啟動原始碼" class="headerlink" title="源代碼 &#x2F; 啟動原始碼"></a>源代碼 &#x2F; 啟動原始碼</h2><blockquote>
+<p>2011年</p>
+</blockquote>
+<ul>
+<li>概念：多線程重進入（Reentrancy）機制</li>
+<li>我很好奇這些源代碼是在什麼上運行的。如果關閉電源，那另外一個世界就會消失？</li>
+</ul>
+<h2 id="恐怖遊輪-汪洋血迷宫"><a href="#恐怖遊輪-汪洋血迷宫" class="headerlink" title="恐怖遊輪 &#x2F; 汪洋血迷宫"></a>恐怖遊輪 &#x2F; 汪洋血迷宫</h2><blockquote>
+<p>2009年</p>
+</blockquote>
+<ul>
+<li>概念：死循環</li>
+</ul>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh">
+    <link itemprop="mainEntityOfPage" href="https://justintien.jiapan.tw/2019/07/10/%E6%B5%81%E6%B5%AA%E5%9C%B0%E7%90%83/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="https://blog.jiapan.tw/assets/logo.png">
+      <meta itemprop="name" content="Justin Tien">
+      <meta itemprop="description" content="這裡是比較屬於賈胖個人事物的 blog，另外比較偏賈胖技術 blog 寫在 https://blog.jiapan.tw">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Justin (Jiapan 賈胖)">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2019/07/10/%E6%B5%81%E6%B5%AA%E5%9C%B0%E7%90%83/" class="post-title-link" itemprop="url">流浪地球</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+
+              <time title="Created: 2019-07-10 18:36:38" itemprop="dateCreated datePublished" datetime="2019-07-10T18:36:38+08:00">2019-07-10</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">Edited on</span>
+                <time title="Modified: 2024-11-18 00:32:34" itemprop="dateModified" datetime="2024-11-18T00:32:34+08:00">2024-11-18</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E5%80%8B%E4%BA%BA/" itemprop="url" rel="index"><span itemprop="name">個人</span></a>
+                </span>
+            </span>
+
+          
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Disqus: </span>
+    
+    <a title="disqus" href="/2019/07/10/%E6%B5%81%E6%B5%AA%E5%9C%B0%E7%90%83/#disqus_thread" itemprop="discussionUrl">
+      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2019/07/10/流浪地球/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h1 id="流浪地球"><a href="#流浪地球" class="headerlink" title="流浪地球"></a>流浪地球</h1><p>一部中國評分蠻高的電影，講述的是地球發生了一些重大天災，最後全球決定帶著地球逃亡…</p>
+<p>以亞洲來說，算是一部拍的還不錯的科幻電影，雖然前半場有點無聊和多餘，到了後半場還是挺感人的。</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh">
+    <link itemprop="mainEntityOfPage" href="https://justintien.jiapan.tw/2019/07/08/Iron-Sky/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="https://blog.jiapan.tw/assets/logo.png">
+      <meta itemprop="name" content="Justin Tien">
+      <meta itemprop="description" content="這裡是比較屬於賈胖個人事物的 blog，另外比較偏賈胖技術 blog 寫在 https://blog.jiapan.tw">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Justin (Jiapan 賈胖)">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2019/07/08/Iron-Sky/" class="post-title-link" itemprop="url">Iron-Sky</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+
+              <time title="Created: 2019-07-08 22:44:55" itemprop="dateCreated datePublished" datetime="2019-07-08T22:44:55+08:00">2019-07-08</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">Edited on</span>
+                <time title="Modified: 2024-11-18 00:32:34" itemprop="dateModified" datetime="2024-11-18T00:32:34+08:00">2024-11-18</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E5%80%8B%E4%BA%BA/" itemprop="url" rel="index"><span itemprop="name">個人</span></a>
+                </span>
+            </span>
+
+          
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Disqus: </span>
+    
+    <a title="disqus" href="/2019/07/08/Iron-Sky/#disqus_thread" itemprop="discussionUrl">
+      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2019/07/08/Iron-Sky/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h1 id="鐵幕天空-鋼鐵蒼穹-Iron-Sky"><a href="#鐵幕天空-鋼鐵蒼穹-Iron-Sky" class="headerlink" title="鐵幕天空&#x2F;鋼鐵蒼穹&#x2F;Iron Sky"></a>鐵幕天空&#x2F;鋼鐵蒼穹&#x2F;Iron Sky</h1><blockquote>
+<p>這是一部腦洞大開的電影</p>
+</blockquote>
+<h2 id="月球的背面是什麼"><a href="#月球的背面是什麼" class="headerlink" title="月球的背面是什麼"></a>月球的背面是什麼</h2><blockquote>
+<p>月球的背面竟然住著一群外星入!?</p>
+</blockquote>
+<h3 id="不"><a href="#不" class="headerlink" title="不"></a>不</h3><blockquote>
+<p>這是納粹！</p>
+</blockquote>
+<h4 id="哈哈"><a href="#哈哈" class="headerlink" title="哈哈"></a>哈哈</h4><p>原來，這是一部講述二戰後德軍戰敗逃到月球上面住的故事，我一開始還很好奇的以為月球背面可能真的住著外星人，還去查了最近登月的一些訊息，查到的都是證實月球後面也只是一般的坑坑洞洞(被隕石打過的痕跡)</p>
+<h5 id="推薦"><a href="#推薦" class="headerlink" title="推薦"></a>推薦</h5><p>這一部腦洞大開的電影，也是值得一看的，裡面有很多諷刺各國以及首長的經典對話！</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh">
+    <link itemprop="mainEntityOfPage" href="https://justintien.jiapan.tw/2019/06/30/%E9%98%BF%E7%94%98%E6%AD%A3%E5%82%B3/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="https://blog.jiapan.tw/assets/logo.png">
+      <meta itemprop="name" content="Justin Tien">
+      <meta itemprop="description" content="這裡是比較屬於賈胖個人事物的 blog，另外比較偏賈胖技術 blog 寫在 https://blog.jiapan.tw">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Justin (Jiapan 賈胖)">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2019/06/30/%E9%98%BF%E7%94%98%E6%AD%A3%E5%82%B3/" class="post-title-link" itemprop="url">阿甘正傳</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+
+              <time title="Created: 2019-06-30 11:06:26" itemprop="dateCreated datePublished" datetime="2019-06-30T11:06:26+08:00">2019-06-30</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">Edited on</span>
+                <time title="Modified: 2024-11-18 00:32:34" itemprop="dateModified" datetime="2024-11-18T00:32:34+08:00">2024-11-18</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E5%80%8B%E4%BA%BA/" itemprop="url" rel="index"><span itemprop="name">個人</span></a>
+                </span>
+            </span>
+
+          
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Disqus: </span>
+    
+    <a title="disqus" href="/2019/06/30/%E9%98%BF%E7%94%98%E6%AD%A3%E5%82%B3/#disqus_thread" itemprop="discussionUrl">
+      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2019/06/30/阿甘正傳/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h1 id="阿甘正傳"><a href="#阿甘正傳" class="headerlink" title="阿甘正傳"></a>阿甘正傳</h1><h2 id="簡介"><a href="#簡介" class="headerlink" title="簡介"></a>簡介</h2><blockquote>
+<p>這是講述一個智商低於 75 的人，但卻比高智商的人們還要容易成功的一個故事</p>
+</blockquote>
+<p>阿甘是一個有嚴重駝背的小男孩，腳上裝戴著矯正器，做事感覺一板一眼但卻很聽媽媽的話，從小被欺負，但也幸運的遇到了女主角，在一次被欺負的過程，女主角不斷的說著「跑！阿甘，跑」，阿甘也照做的努力的向前跑，跑著跑著矯正器變身了，跑出了天際，跑贏了所有足球隊的人最後還成為加入了全美大學美式足球明星隊！</p>
+<p>在一次的閒置下，朋友教阿甘打了桌球，說這很容易你只要一直盯著球就行了，阿甘照做了不斷的盯著球打，打出了名號，後來阿甘因為好友的戰死為了履行答應他的捕蝦行業，也捕蝦捕出了一片天，最後還成為了 apple 的股東儼然間成了億萬富翁</p>
+<p>每當阿甘被嘲笑傻的時候，他最常說的就是媽媽說「做傻事的人才是傻事」</p>
+<h2 id="心得"><a href="#心得" class="headerlink" title="心得"></a>心得</h2><blockquote>
+<p>仔細想想，其實傻傻的做著某件事，也許才是最聰明的</p>
+</blockquote>
+<p>最重要的是同樣的事，不斷的做，堅持地做，不要想東想西，做！就對了！</p>
+<p>分享這部電影給大家</p>
+<p>補充: 裡面還有很多當時美國的一些歷史文化和當時這部電影想要撼動民心的一些內容…</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh">
+    <link itemprop="mainEntityOfPage" href="https://justintien.jiapan.tw/2019/06/27/%E8%BC%AA%E5%88%B0%E4%BD%A0%E4%BA%86%20%E3%81%82%E3%81%AA%E3%81%9F%E3%81%AE%E7%95%AA%E3%81%A7%E3%81%99/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="https://blog.jiapan.tw/assets/logo.png">
+      <meta itemprop="name" content="Justin Tien">
+      <meta itemprop="description" content="這裡是比較屬於賈胖個人事物的 blog，另外比較偏賈胖技術 blog 寫在 https://blog.jiapan.tw">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Justin (Jiapan 賈胖)">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2019/06/27/%E8%BC%AA%E5%88%B0%E4%BD%A0%E4%BA%86%20%E3%81%82%E3%81%AA%E3%81%9F%E3%81%AE%E7%95%AA%E3%81%A7%E3%81%99/" class="post-title-link" itemprop="url">輪到你了 あなたの番です</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+
+              <time title="Created: 2019-06-27 18:22:10" itemprop="dateCreated datePublished" datetime="2019-06-27T18:22:10+08:00">2019-06-27</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">Edited on</span>
+                <time title="Modified: 2024-11-18 00:32:34" itemprop="dateModified" datetime="2024-11-18T00:32:34+08:00">2024-11-18</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E5%80%8B%E4%BA%BA/" itemprop="url" rel="index"><span itemprop="name">個人</span></a>
+                </span>
+            </span>
+
+          
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Disqus: </span>
+    
+    <a title="disqus" href="/2019/06/27/%E8%BC%AA%E5%88%B0%E4%BD%A0%E4%BA%86%20%E3%81%82%E3%81%AA%E3%81%9F%E3%81%AE%E7%95%AA%E3%81%A7%E3%81%99/#disqus_thread" itemprop="discussionUrl">
+      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2019/06/27/輪到你了 あなたの番です/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h1 id="輪到你了-あなたの番です"><a href="#輪到你了-あなたの番です" class="headerlink" title="輪到你了 あなたの番です"></a>輪到你了 あなたの番です</h1><p>最近看了一部日劇 <code>あなたの番です</code>，這是一部由原田知世與田中圭主演的電視劇，而且是日本25年以來再次二季連播的劇，也就是說一共有二十集，我開始看的時候，已經到了第一季第8集，第1集男女主角搬到新買的小公寓裡，然後女主角參加了居民委員委，結果不知道誰提議寫下自己想殺的人並且做紙條的交換，還訂了遊戲規則也就是若你寫下的人有人幫你殺了對方，你就要去殺你抽到的紙條上面的人。</p>
+<p>到後來紙條上的人一個接一個的死去，但目前每一集的線索都還無法有任何跡象顯示兇手是誰，甚至猜測兇手可能有多個，這讓人燒破腦的推理劇（有可能編劇沒有要讓我們推理），也不斷的到網上看大家的分析討論，不過在台灣好像比較少人在討論這部日劇，至於原因為何，就不得而知了，我很多的分析與討論都是上 <code>知乎</code>、<code>豆瓣</code> 去看的，發現很多網友真的很神，很多我沒有注意的細節都標出來了。</p>
+<p>目前追到第一季 + 特別篇完結，好令人著急，每周都在等新番出爈，第二季第1集要等 6&#x2F;30 之後才會有熟肉看了，雖然有很多網友推測兇手有可能是男主角，懷疑的方向是他擁有多重人格，但是第二季的標題是男主角的反擊，應該不會結果兇手真的是男主角吧…好期待第二季的到來</p>
+<p>蠻推薦大家看這部，若不想等新番的話，建議 9月 再開始一次看二季！</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh">
+    <link itemprop="mainEntityOfPage" href="https://justintien.jiapan.tw/2019/06/26/upgrade-hexo-theme-next/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="https://blog.jiapan.tw/assets/logo.png">
+      <meta itemprop="name" content="Justin Tien">
+      <meta itemprop="description" content="這裡是比較屬於賈胖個人事物的 blog，另外比較偏賈胖技術 blog 寫在 https://blog.jiapan.tw">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Justin (Jiapan 賈胖)">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2019/06/26/upgrade-hexo-theme-next/" class="post-title-link" itemprop="url">upgrade-hexo-theme-next</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+
+              <time title="Created: 2019-06-26 21:38:09" itemprop="dateCreated datePublished" datetime="2019-06-26T21:38:09+08:00">2019-06-26</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">Edited on</span>
+                <time title="Modified: 2024-11-18 00:32:34" itemprop="dateModified" datetime="2024-11-18T00:32:34+08:00">2024-11-18</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E5%80%8B%E4%BA%BA/" itemprop="url" rel="index"><span itemprop="name">個人</span></a>
+                </span>
+            </span>
+
+          
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Disqus: </span>
+    
+    <a title="disqus" href="/2019/06/26/upgrade-hexo-theme-next/#disqus_thread" itemprop="discussionUrl">
+      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2019/06/26/upgrade-hexo-theme-next/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h1 id="心血來潮升級一下-next-主題"><a href="#心血來潮升級一下-next-主題" class="headerlink" title="心血來潮升級一下 next 主題"></a>心血來潮升級一下 next 主題</h1><blockquote>
+<p>原先用的是 hexo-theme-next 6.x.y 忘了實際版號，目前升級至 <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0Lw==">7.1.2<i class="fa fa-external-link-alt"></i></span>, 它的前身是 <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2lpc3NuYW4vaGV4by10aGVtZS1uZXh0">https://github.com/iissnan/hexo-theme-next<i class="fa fa-external-link-alt"></i></span> (6.0.0 以下的版號)</p>
+</blockquote>
+<h2 id="主要原因"><a href="#主要原因" class="headerlink" title="主要原因"></a>主要原因</h2><ul>
+<li>看到新的樣式有一些有趣</li>
+<li>我在舊版本的作法上有一些不妥 (直接修改 themes&#x2F;next&#x2F;_config.yml 這會導致每次升級都要重新處理 conflict)</li>
+<li>升級過程以及其遇到的小問題:</li>
+</ul>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">mv</span> themes/next themex/next.old <span class="comment"># 這個是個人習慣, 先備份舊的檔</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># https://github.com/theme-next/hexo-theme-next/blob/master/docs/zh-CN/DATA-FILES.md</span></span><br><span class="line"><span class="comment"># 我採用了方法一 (改動最小)</span></span><br><span class="line"><span class="comment"># 选择 1：override: false（默认）：</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 检查默认 NexT 配置中的 override 选项，必须设置为 false。</span></span><br><span class="line"><span class="comment"># 在 next.yml 文件中，也要设置为 false，或者不定义此选项。</span></span><br><span class="line"><span class="comment"># 从站点的 _config.yml 与主题的 _config.yml 中复制你需要的选项到 hexo/source/_data/next.yml 中。</span></span><br><span class="line"><span class="built_in">mkdir</span> -p <span class="built_in">source</span>/_data/</span><br><span class="line"></span><br><span class="line"><span class="comment"># 拉最新版本的 hexo-theme-next</span></span><br><span class="line">git <span class="built_in">clone</span> https://github.com/theme-next/hexo-theme-next/ themes/next</span><br><span class="line"></span><br><span class="line"><span class="comment"># 比對舊的 _config.yml 我有設定過的選項 (若你不是升級的不用做這一步)</span></span><br><span class="line">git diff themes/next</span><br><span class="line"></span><br><span class="line"><span class="comment"># 想要覆蓋的 next _config.yml 都在這裡寫</span></span><br><span class="line">vim <span class="built_in">source</span>/_data/next.yml</span><br><span class="line"></span><br><span class="line"><span class="comment"># 以為一切都完成，結果發現 css 樣式沒有更新，才發現漏了這個流程</span></span><br><span class="line">hexo clean &amp;&amp; hexo g -d &amp;&amp; hexo s</span><br><span class="line"></span><br><span class="line"><span class="comment"># hexo clean 清除緩存文件 db.json 和已生成的靜態静態文件 public</span></span><br><span class="line"><span class="comment"># hexo g = hexo generate 生成網站靜態文件到默認設置的 public</span></span><br><span class="line"><span class="comment"># hexo s = hexo server 啟動本地服務器，用於預覽主題，默認 http://localhost:4000/</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">rm</span> -rf themes/next.old</span><br><span class="line"></span><br><span class="line"><span class="comment"># 這樣以後升級 next 主題只需要</span></span><br><span class="line"><span class="built_in">cd</span> themes/next</span><br><span class="line">git pull</span><br></pre></td></tr></table></figure>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh">
+    <link itemprop="mainEntityOfPage" href="https://justintien.jiapan.tw/2018/12/30/lazybone/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="https://blog.jiapan.tw/assets/logo.png">
+      <meta itemprop="name" content="Justin Tien">
+      <meta itemprop="description" content="這裡是比較屬於賈胖個人事物的 blog，另外比較偏賈胖技術 blog 寫在 https://blog.jiapan.tw">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Justin (Jiapan 賈胖)">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2018/12/30/lazybone/" class="post-title-link" itemprop="url">lazybones</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+
+              <time title="Created: 2018-12-30 12:23:38" itemprop="dateCreated datePublished" datetime="2018-12-30T12:23:38+08:00">2018-12-30</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">Edited on</span>
+                <time title="Modified: 2024-11-18 00:32:34" itemprop="dateModified" datetime="2024-11-18T00:32:34+08:00">2024-11-18</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E5%80%8B%E4%BA%BA/" itemprop="url" rel="index"><span itemprop="name">個人</span></a>
+                </span>
+            </span>
+
+          
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Disqus: </span>
+    
+    <a title="disqus" href="/2018/12/30/lazybone/#disqus_thread" itemprop="discussionUrl">
+      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2018/12/30/lazybone/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h1 id="賈胖就是個大懶豬"><a href="#賈胖就是個大懶豬" class="headerlink" title="賈胖就是個大懶豬"></a>賈胖就是個大懶豬</h1><p>沒想到工作一忙起來，真的會忙死人，根本不會有時間想到繼續寫我的 blog….</p>
+<p>今天講講我最近看到的東西吧…</p>
+<p>先說明下，本站目前採用的是 <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvLw==">hexo<i class="fa fa-external-link-alt"></i></span></p>
+<p>hexo 目前用起來其實不太順手，很多東西都不太直覺…但畢境他是比較早出的工具…</p>
+<h2 id="vuepress"><a href="#vuepress" class="headerlink" title="vuepress"></a>vuepress</h2><p>新的 static site generator (SSG) 工具誕生於 2018年4月， 與 vue 一致的風格，如果用過 vue 的人應該會感覺很親切，還可以在這邊直接寫 vue 的組件，聽說尤大大說寫這個工具是為了解決他自己寫文檔頭痛的問題，目前處於 1-alpha，等他正式版 release 我可能會考慮換這個</p>
+<h2 id="其它"><a href="#其它" class="headerlink" title="其它"></a>其它</h2><p>其它還有</p>
+<ul>
+<li>Jekyll: 用 Ruby 構建，並集成到 GitHub Pages 中，因此被黑客攻擊的風險要低得多。主題可以簡單更換，自帶 SEO，並且 Jekyll 社區提供了大量的自定義插件。</li>
+<li>Gatsby</li>
+<li>hugo</li>
+</ul>
+<blockquote>
+<p>參考: <span class="exturl" data-url="aHR0cHM6Ly9qdWVqaW4uaW0vcG9zdC81YjQ3MDc5YmYyNjVkYTBmYWEzNjU1YmU=">https://juejin.im/post/5b47079bf265da0faa3655be<i class="fa fa-external-link-alt"></i></span></p>
+</blockquote>
+<h2 id="結語"><a href="#結語" class="headerlink" title="結語"></a>結語</h2><p>還是希望能找到一款順手的工具，隨手就能寫，目前最順手的應該還是 <span class="exturl" data-url="aHR0cHM6Ly9kb2NzaWZ5LmpzLm9yZy8=">docsify<i class="fa fa-external-link-alt"></i></span>，賈胖的技術 blog 就是用 docsify 完成的可以看看效果頁 <span class="exturl" data-url="aHR0cHM6Ly9ibG9nLmppYXBhbi50dy8=">https://blog.jiapan.tw<i class="fa fa-external-link-alt"></i></span></p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh">
+    <link itemprop="mainEntityOfPage" href="https://justintien.jiapan.tw/2018/05/17/first-first/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="https://blog.jiapan.tw/assets/logo.png">
+      <meta itemprop="name" content="Justin Tien">
+      <meta itemprop="description" content="這裡是比較屬於賈胖個人事物的 blog，另外比較偏賈胖技術 blog 寫在 https://blog.jiapan.tw">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Justin (Jiapan 賈胖)">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2018/05/17/first-first/" class="post-title-link" itemprop="url">first! first!</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+
+              <time title="Created: 2018-05-17 08:49:34" itemprop="dateCreated datePublished" datetime="2018-05-17T08:49:34+08:00">2018-05-17</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">Edited on</span>
+                <time title="Modified: 2024-11-18 00:32:34" itemprop="dateModified" datetime="2024-11-18T00:32:34+08:00">2024-11-18</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E5%80%8B%E4%BA%BA/" itemprop="url" rel="index"><span itemprop="name">個人</span></a>
+                </span>
+            </span>
+
+          
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Disqus: </span>
+    
+    <a title="disqus" href="/2018/05/17/first-first/#disqus_thread" itemprop="discussionUrl">
+      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2018/05/17/first-first/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p>萬眾矚目開始寫賈胖的 Blog, 其實曾在 2015 年 就用了 hexo 架起我的 <span class="exturl" data-url="aHR0cHM6Ly9qdXN0aW50aWVuLmdpdGh1Yi5pby8=">justintien.github.io<i class="fa fa-external-link-alt"></i></span>，但後面沒有繼續在寫了…</p>
+<h2 id="復出動機"><a href="#復出動機" class="headerlink" title="復出動機"></a>復出動機</h2><blockquote>
+<p>為什麼突然重啟了 hexo 寫 blog 的想法</p>
+</blockquote>
+<p>這要歸功於我的幾個夥伴們 <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3VwOWNsb3Vk">up9cloud<i class="fa fa-external-link-alt"></i></span> <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2d0bzIyODM0">gto22834<i class="fa fa-external-link-alt"></i></span>, 推薦我使用 <span class="exturl" data-url="aHR0cHM6Ly9kb2NzaWZ5LmpzLm9yZy8=">docsify<i class="fa fa-external-link-alt"></i></span>, 我開始先將平時的工作學習筆記整理成 blog, 於是 <span class="exturl" data-url="aHR0cHM6Ly9ibG9nLmppYXBhbi50dy8=">Justin (Jiapan 賈胖)<i class="fa fa-external-link-alt"></i></span> 就這樣誕生了！</p>
+<h2 id="未來展望"><a href="#未來展望" class="headerlink" title="未來展望"></a>未來展望</h2><blockquote>
+<p>希望可以做到每週至少寫一篇文章，而且持續到老！</p>
+</blockquote>
+<p>同時也在我的 <span class="exturl" data-url="aHR0cHM6Ly9ibG9nLmppYXBhbi50dy8=">Justin (Jiapan 賈胖)<i class="fa fa-external-link-alt"></i></span> 發表了一篇 <span class="exturl" data-url="aHR0cHM6Ly9ibG9nLmppYXBhbi50dy93b3JrZmxvdy9oZXhvLWdpdGh1Yi5pbw==">使用 hexo 建立 blog &amp; deploy on github.io<i class="fa fa-external-link-alt"></i></span></p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+
+  
+  <nav class="pagination">
+    <a class="extend prev" rel="prev" href="/"><i class="fa fa-angle-left" aria-label="Previous page"></i></a><a class="page-number" href="/">1</a><span class="page-number current">2</span>
+  </nav>
+
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          Table of Contents
+        </li>
+        <li class="sidebar-nav-overview">
+          Overview
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="Justin Tien"
+      src="https://blog.jiapan.tw/assets/logo.png">
+  <p class="site-author-name" itemprop="name">Justin Tien</p>
+  <div class="site-description" itemprop="description">這裡是比較屬於賈胖個人事物的 blog，另外比較偏賈胖技術 blog 寫在 https://blog.jiapan.tw</div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">18</span>
+          <span class="site-state-item-name">posts</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-name">categories</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">8</span>
+        <span class="site-state-item-name">tags</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+        <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2p1c3RpbnRpZW4=" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;justintien"><i class="github fa-fw"></i></span>
+      </span>
+      <span class="links-of-author-item">
+        <span class="exturl" data-url="bWFpbHRvOnRoaXRiYmViK2p1c3RpbnRpZW4uamlhcGFuLnR3QGdtYWlsLmNvbQ==" title="E-Mail → mailto:thitbbeb+justintien.jiapan.tw@gmail.com"><i class="envelope fa-fw"></i></span>
+      </span>
+      <span class="links-of-author-item">
+        <span class="exturl" data-url="aHR0cHM6Ly90Lm1lL2pvaW5jaGF0L0lZTlhveGFJWEhwTWNFZS1SOEFDNWc=" title="Telegram [Chat] → https:&#x2F;&#x2F;t.me&#x2F;joinchat&#x2F;IYNXoxaIXHpMcEe-R8AC5g"><i class="telegram fa-fw"></i></span>
+      </span>
+      <span class="links-of-author-item">
+        <span class="exturl" data-url="aHR0cHM6Ly90Lm1lL2pvaW5jaGF0L0FBQUFBRmc3cWdUbHVxWE5ib3RkeHc=" title="Telegram [News] → https:&#x2F;&#x2F;t.me&#x2F;joinchat&#x2F;AAAAAFg7qgTluqXNbotdxw"><i class="paper-plane fa-fw"></i></span>
+      </span>
+  </div>
+  <div class="cc-license motion-element" itemprop="license">
+    <span class="exturl cc-opacity" data-url="aHR0cHM6Ly9jcmVhdGl2ZWNvbW1vbnMub3JnL2xpY2Vuc2VzL2J5LW5jLXNhLzQuMC8="><img src="/images/cc-by-nc-sa.svg" alt="Creative Commons"></span>
+  </div>
+
+
+
+      </div>
+        <div class="back-to-top motion-element">
+          <i class="fa fa-arrow-up"></i>
+          <span>0%</span>
+        </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 2018 – 
+  <span itemprop="copyrightYear">2024</span>
+  <span class="with-love">
+    <i class="heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Justin Tien</span>
+</div>
+  <div class="powered-by">Powered by <span class="exturl theme-link" data-url="aHR0cHM6Ly9oZXhvLmlv">Hexo</span> & <span class="exturl theme-link" data-url="aHR0cHM6Ly90aGVtZS1uZXh0Lm9yZw==">NexT.Gemini</span>
+  </div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/pisces.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+<script>
+  function loadCount() {
+    var d = document, s = d.createElement('script');
+    s.src = 'https://justintien.disqus.com/count.js';
+    s.id = 'dsq-count-scr';
+    (d.head || d.body).appendChild(s);
+  }
+  // defer loading until the whole page loading is completed
+  window.addEventListener('load', loadCount, false);
+</script>
+
+</body>
+</html>
