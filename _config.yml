@@ -103,3 +103,4 @@ theme: next # default: landscape
 deploy:
   type: git
   repo: git@github.com:justintien/justintien.github.io.git
+  branch: gh-pages
